@@ -1,2 +1,4 @@
 require("viodid.remap")
-print("hello from viodid")
+require("viodid.set")
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
