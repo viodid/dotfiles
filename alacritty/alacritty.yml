@@ -1,11 +1,15 @@
 # Window config
 window:
+  dimensions:
+    columns: 82
+    lines: 24
   opacity: 0.75
   padding:
     x: 2
     y: 2
   dynamic_padding: true
-  decorations: none
+  decorations: full
+  startup_mode: Fullscreen
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
