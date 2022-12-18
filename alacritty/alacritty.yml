@@ -1,6 +1,19 @@
 # Window config
 window:
   opacity: 0.75
+  padding:
+    x: 2
+    y: 2
+  dynamic_padding: true
+  decorations: none
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 10000
+  # Number of lines the viewport will move for every line scrolled when
+  # scrollback is enabled (history > 0).
+  multiplier: 3
 
 # Fon config
 font:
@@ -20,6 +33,7 @@ font:
 
 # Base16 Gruvbox dark, medium 256 - alacritty color config
 # Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
@@ -61,4 +75,19 @@ colors:
     - { index: 20, color: '0xbdae93' }
     - { index: 21, color: '0xebdbb2' }
 
+mouse:
+  # If this is `true`, the cursor is temporarily hidden when typing.
+  hide_when_typing: true
 
+cursor:
+  # Cursor style
+  #
+  # Values for 'style':
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Block
+
+  # If this is `true`, the cursor will be rendered as a hollow box when the
+  # window is not focused.
+  unfocused_hollow: true
