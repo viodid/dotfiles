@@ -13,14 +13,16 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-    use ("EdenEast/nightfox.nvim")
-    use('nvim-treesitter/nvim-treesitter')
-    use('nvim-treesitter/playground')
-    use('thePrimeagen/harpoon')
-    use('mbbill/undotree')
-    use('tpope/vim-fugitive')
-    use('andweeb/presence.nvim')
-    use("folke/zen-mode.nvim")
+    use 'EdenEast/nightfox.nvim'
+    use 'nvim-treesitter/nvim-treesitter'
+    use 'nvim-treesitter/playground'
+    use 'thePrimeagen/harpoon'
+    use 'mbbill/undotree'
+    use 'tpope/vim-fugitive'
+    use 'andweeb/presence.nvim'
+    use 'folke/zen-mode.nvim'
+    use 'lukas-reineke/indent-blankline.nvim'
+    use 'lewis6991/gitsigns.nvim'
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
