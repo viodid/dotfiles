@@ -23,6 +23,8 @@ return require('packer').startup(function(use)
     use 'folke/zen-mode.nvim'
     use 'lukas-reineke/indent-blankline.nvim'
     use 'lewis6991/gitsigns.nvim'
+    use 'm4xshen/autoclose.nvim'
+    use 'github/copilot.vim'
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
