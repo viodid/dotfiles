@@ -3,13 +3,13 @@ window:
   dimensions:
     columns: 82
     lines: 24
-  opacity: 0.90
+  opacity: 0.70
   padding:
     x: 2
     y: 2
   dynamic_padding: true
-  decorations: full
-  startup_mode: Fullscreen
+  decorations: none
+  startup_mode: Maximized
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
