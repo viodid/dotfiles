@@ -1,0 +1,6 @@
+com.arcticicestudio.nord.jetbrains
+Key Promoter X
+IdeaVIM
+com.github.copilot
+com.almightyalpaca.intellij.plugins.discord
+mobi.hsz.idea.gitignore
