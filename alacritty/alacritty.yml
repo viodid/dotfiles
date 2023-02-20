@@ -9,7 +9,7 @@ window:
     y: 2
   dynamic_padding: true
   decorations: none
-  startup_mode: Maximized
+  startup_mode: Fullscreen
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
