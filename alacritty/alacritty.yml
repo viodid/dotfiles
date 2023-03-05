@@ -22,18 +22,18 @@ scrolling:
 # Fon config
 font:
   normal:
-    family: Dank Mono
+    family: Hack
     style: Regular
   bold:
-    family: Dank Mono
+    family: Hack
     style: Bold
   italic:
-    family: Dank Mono
-    style: Regular
+    family: Hack
+    style: Italic
   bold_italic:
-    family: Dank Mono
-    style: Bold
-  size: 17.0
+    family: Hack
+    style: Bold Italic
+  size: 12.0
 
 # Base16 Gruvbox dark, medium 256 - alacritty color config
 # Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
