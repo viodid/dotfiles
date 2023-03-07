@@ -107,4 +107,4 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 # alias discord="/home/viodid/Downloads/discord-0.0.23.deb/data/usr/bin/discord"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
-alias paco="/home/viodid/francinette/tester.sh"
+#alias paco="/home/viodid/francinette/tester.sh"
