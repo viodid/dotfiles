@@ -8,6 +8,16 @@ vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.cindent = true
 
+-- Set indentation settings per file type
+vim.api.nvim_exec([[
+  augroup IndentSettings
+    autocmd!
+    autocmd FileType c,cpp,java setlocal shiftwidth=4 tabstop=4 softtabstop=4
+    autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab
+  augroup END
+]], false)
+
+
 vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
