@@ -11,7 +11,7 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
 })
 
 -- Fix Undefined global 'vim'
-lsp.configure('sumneko_lua', {
+lsp.configure('ls_lua', {
     settings = {
         Lua = {
             diagnostics = {

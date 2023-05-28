@@ -33,7 +33,7 @@ font:
   bold_italic:
     family: MesloLGS NF
     style: Bold Italic
-  size: 16.0
+  size: 15.0
 
 # TokyoNight Alacritty Colors
 colors:

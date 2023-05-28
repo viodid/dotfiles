@@ -24,4 +24,4 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 -- github copilot
---vim.g.copilot_node_command = "~/.nvm/versions/node/v19.3.0/bin/node"
+vim.g.copilot_node_command = "/usr/bin/node"
